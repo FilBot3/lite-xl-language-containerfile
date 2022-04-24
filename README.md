@@ -24,3 +24,6 @@ git clone https://github.com/FilBot3/lite-xl-language-containerfile.git ~/.confi
 
 Restart Lite-XL, and it should start working.
 
+## Screenshots
+
+![Lite-XL Containerfile Syntax Highlighting](./docs/lite-xl-screenshot.png)
