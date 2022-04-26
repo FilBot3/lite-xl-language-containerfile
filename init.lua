@@ -3,7 +3,7 @@ local syntax = require "core.syntax"
 
 syntax.add {
   name = "Containerfile",
-  files = { "Containerfile", "Dockerfile", "%.containerfile", "%.dockerfile", "%.Containerfile", "%.Dockerfile" },
+  files = { "^Containerfile$", "^Dockerfile$", "%.[cC]ontainerfile$", "%.[dD]ockerfile$" },
   comment = "#",
   patterns = {
     { pattern = "#.*\n", type = "comment" },
